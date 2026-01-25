@@ -1,0 +1,17 @@
+# BRIGHT Benchmark 评估依赖
+# pip install -r requirements.txt
+
+# 核心依赖
+datasets>=2.14.0
+pytrec_eval>=0.5
+rank_bm25>=0.2.2
+numpy>=1.24.0
+tqdm>=4.65.0
+
+# LLM 推理（如果使用自定义 reranker）
+transformers>=4.35.0
+torch>=2.0.0
+vllm>=0.2.0  # 可选，用于高效推理
+
+# 其他
+requests>=2.28.0
